@@ -41,7 +41,7 @@ xsltproc fmpxmlresult2simpleJSON.xslt YourLayout.fmpxmlresult.xml | json
 License
 =======
 
-Copyright (c) 2015 Gjermund Gusland Thorsen, released under the MIT License.
+Copyright (c) 2018 Gjermund Gusland Thorsen, released under the MIT License.
 
 All rights deserved.
 
