@@ -11,7 +11,9 @@ Note that adding a layout name in the FMPXMLRESULT export; before translating us
 
 How to use this file in terminal
 ---
-xsltproc fmpxmlresult2SwiftyJSONModel.xslt YourTable.fmpxmlresult.xml > Yourdatamodel.swift
+```BASh
+xsltproc fmpxmlresult2simpleJSON.xslt YourTable.fmpxmlresult.xml > YourTable.json
+```
 
 License
 =======
