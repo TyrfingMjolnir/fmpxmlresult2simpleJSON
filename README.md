@@ -12,7 +12,30 @@ Note that adding a layout name in the FMPXMLRESULT export; before translating us
 How to use this file in terminal
 ---
 ```BASh
-xsltproc fmpxmlresult2simpleJSON.xslt YourTable.fmpxmlresult.xml > YourTable.json
+xsltproc fmpxmlresult2simpleJSON.xslt YourTable.fmpxmlresult.xml | json
+```
+```JSON
+{
+  "tablename": {
+    "field": [
+      "fieldname1",
+      "fieldname2",
+      "fieldname3"
+    ],
+    "data": {
+      "recidrecord1.modidrecord1": [
+        "field1content",
+        "field2content",
+        "field3content"
+      ],
+      "recidrecord2.modidrecord2": [
+        "field1content",
+        "field2content",
+        "field3content"
+      ]
+    }
+  }
+}
 ```
 
 License
