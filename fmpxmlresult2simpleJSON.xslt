@@ -2,6 +2,8 @@
 <!-- 
      Written by Gjermund G Thorsen 2018, all rights deserved
      for the purpose of generating JSON from FMPXMLRESULT
+     as simple as possible, as complicated as necessary to bring the data back in to the same FileMaker table
+     No support for repeating fields for now.
 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fmp="http://www.filemaker.com/fmpxmlresult" version="1.0">
 	<xsl:output method="text" version="1.0" encoding="UTF-8" indent="no"/>
