@@ -16,7 +16,7 @@ xsltproc fmpxmlresult2simpleJSON.xslt YourTable.fmpxmlresult.xml | json
 ```
 ```JSON
 {
-  "tablename": {
+  "layoutname": {
     "field": [
       "fieldname1",
       "fieldname2",
