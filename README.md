@@ -7,9 +7,9 @@ Uses string for all datatypes.
 
 Note that adding a layout name in the FMPXMLRESULT export; before translating using this XSLT, will make the output more complete. FileMaker does usually skip layout name on exports, if you know when FileMaker actually outputs the layout name, please enlighten me.
 
-### There is now need to download the stylesheet from github, 1) click on the stylesheet; 2) click Raw, 3) copy the URL and 4) paste into the XSLT HTTP dialog of FileMaker XML export
+### There is no need to download the stylesheet from github, 1) click on the stylesheet; 2) click Raw, 3) copy the URL and 4) paste into the XSLT HTTP dialog of FileMaker XML export
 
-<img alt="There is now need to download the stylesheet from github, 1) click on the stylesheet; 2) click Raw, 3) copy the URL and 4) paste into the XSLT HTTP dialog of FileMaker XML export" src="XSLTfromGH.png" width="100%" max-width=1008>
+<img alt="There is no need to download the stylesheet from github, 1) click on the stylesheet; 2) click Raw, 3) copy the URL and 4) paste into the XSLT HTTP dialog of FileMaker XML export" src="XSLTfromGH.png" width="100%" max-width=1008>
 
 ## Make sure you check the box below to make this stylesheet work.
 
