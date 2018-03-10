@@ -12,7 +12,7 @@ Note that adding a layout name in the FMPXMLRESULT export; before translating us
 How to use this file in terminal
 ---
 ```BASh
-xsltproc fmpxmlresult2simpleJSON.xslt YourTable.fmpxmlresult.xml | json
+xsltproc fmpxmlresult2simpleJSON.xslt YourLayout.fmpxmlresult.xml | json
 ```
 ```JSON
 {
