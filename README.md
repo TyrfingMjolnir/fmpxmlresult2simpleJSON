@@ -7,6 +7,8 @@ Uses string for all datatypes.
 
 Note that adding a layout name in the FMPXMLRESULT export; before translating using this XSLT, will make the output more complete. FileMaker does usually skip layout name on exports, if you know when FileMaker actually outputs the layout name, please enlighten me.
 
+## Make sure you check the box below to make this stylesheet work.
+
 <img alt="[x] Format Using Layout will provoke the export to populate the LAYOUT-attribute" src="FormatUsingLayout.png" width="100%" max-width=1008>
 
 How to use this file in terminal
