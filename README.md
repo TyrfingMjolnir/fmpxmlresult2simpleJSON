@@ -44,6 +44,8 @@ xsltproc fmpxmlresult2simpleJSON.xslt YourLayout.fmpxmlresult.xml | json
 }
 ```
 
+The output is written with one thing in mind, being able to return the data to its source; via FX.php, pyFileMaker, or similar.
+
 License
 =======
 
