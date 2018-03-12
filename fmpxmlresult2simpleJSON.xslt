@@ -52,6 +52,14 @@
     </xsl:for-each>
     <xsl:text>}</xsl:text>
   </xsl:template>
+<!--
+ Todo
+; [ "\\" ; "\\\\" ]
+; [ Char(11) ; "\n" ] /* new line within field */
+; [ Char(9) ; "\t" ] /*tab */
+; [ Char(29) ; "#" ] /* repeating field separator */
+; [ "\"\"" ; "\\\"" ] /* quoted values */
+-->
   <xsl:variable name="databaseName">
     <xsl:value-of select="fmp:FMPXMLRESULT/fmp:DATABASE/@NAME"/>
   </xsl:variable>
